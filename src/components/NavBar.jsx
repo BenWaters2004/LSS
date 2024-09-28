@@ -4,7 +4,7 @@ const NavBar = () => {
       {/* Logo positioned 15% from the left */}
       <div className="flex items-center">
         <a href="#Hero"><img
-          src="src/assets/LSSlogoPNG.png"
+          src="/LSSlogoPNG.png"
           alt="LSS logo"
           className="h-20"
         /></a>
