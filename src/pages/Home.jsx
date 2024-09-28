@@ -1,8 +1,10 @@
+import { Hero, NavBar } from "../components";
 
 export default function Home() {
   return (
-    <div className='relative z-0 bg-primary'>
-      <h1>Home</h1>
+    <div className='relative'>
+      <NavBar />
+      <Hero />
     </div>
   )
 }
