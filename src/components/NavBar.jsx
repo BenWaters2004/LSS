@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="sticky top-0 w-full bg-primary flex items-center justify-between px-[15%] z-50">
+    <nav className="sticky top-0 w-full bg-primary flex items-center justify-between px-[15%] z-50 drop-shadow-2xl">
       {/* Logo positioned 15% from the left */}
       <div className="flex items-center">
         <a href="#Hero"><img
