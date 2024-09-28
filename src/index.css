@@ -16,3 +16,18 @@
   display: block;
 }
 
+#hoverEffect:hover {
+  background: #418434;
+  transition: 0.3s;
+}
+
+#focusInput:focus {
+  outline: 4px solid #5CB949;
+  transition: 0.3s;
+}
+
+#footerHover:hover {
+  color: #5CB949;
+  text-decoration: underline;
+  transition: 0.3s;
+}

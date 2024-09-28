@@ -15,6 +15,7 @@ const NavBar = () => {
         <a
           href="#contact"
           className="bg-secondary text-white py-2.5 px-6 font-semibold"
+          id="hoverEffect"
         >
           CONTACT
         </a>

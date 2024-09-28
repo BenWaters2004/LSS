@@ -78,6 +78,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="Name"
             className="p-4 bg-white text-black border-none rounded h-[55px]"
+            id="focusInput"
           />
           <textarea
             rows={7}
@@ -86,6 +87,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="What would you like to say?"
             className="p-4 bg-white text-black border-none rounded h-[55px]"
+            id="focusInput"
           />
         </div>
         
@@ -98,11 +100,13 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="Email Address"
             className="p-4 bg-white text-black border-none rounded h-[55px]"
+            id="focusInput"
           />
           <button
             type="submit"
             onClick={handleSubmit}
             className="p-4 bg-secondary text-white font-bold rounded h-[55px]"
+            id="hoverEffect"
           >
             {loading ? "Sending..." : "REQUEST QUOTE"}
           </button>

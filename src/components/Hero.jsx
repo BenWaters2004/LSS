@@ -12,7 +12,7 @@ const Hero = () => {
         <h3 className="leading-[75px] text-white font-medium text-[27px] bg-black/50 w-max h-[75px] px-7">
           Covering Dorset, Devon, and Somerset
         </h3>
-        <button className="bg-secondary text-white font-semibold w-[235px] h-[60px] text-[20px]">
+        <button className="bg-secondary text-white font-semibold w-[235px] h-[60px] text-[20px]" id="hoverEffect">
           GET A FREE QUOTE
         </button>
       </div>
