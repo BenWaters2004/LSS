@@ -8,7 +8,7 @@ const About = () => {
         
         {/* Image on the left */}
         <div className="md:w-1/2 w-full">
-          <img src="/src/assets/AboutScaffold.webp" alt="Scaffolding" className="w-full h-auto px-[20%]" />
+          <img src="/AboutScaffold.webp" alt="Scaffolding" className="w-full h-auto px-[20%]" />
         </div>
         
         {/* Text content on the right */}
