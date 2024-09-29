@@ -59,7 +59,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative w-full bg-primary py-10">
+    <section className="relative w-full bg-primary py-10" id="Contact">
 
       {/* Grid layout for the form and text */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto max-w-7xl px-4 py-20">
