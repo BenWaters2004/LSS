@@ -60,7 +60,7 @@ const Contact = () => {
 
   return (
     <section className="relative w-full bg-primary py-10">
-      
+
       {/* Grid layout for the form and text */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto max-w-7xl px-4 py-20">
         {/* Column 1: Text */}
@@ -68,7 +68,7 @@ const Contact = () => {
           <h3 className="leading-[55px] text-[28px] font-bold mb-4">Let's Connect</h3>
           <p className="text-[18px]">Get in touch today to receive a free quotation at our competitive rates.</p>
         </div>
-        
+
         {/* Column 2: Name and Message */}
         <div className="column2 flex flex-col gap-12">
           <input
@@ -90,7 +90,7 @@ const Contact = () => {
             id="focusInput"
           />
         </div>
-        
+
         {/* Column 3: Email and Submit Button */}
         <div className="column3 flex flex-col gap-12">
           <input

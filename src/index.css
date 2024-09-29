@@ -31,3 +31,35 @@
   text-decoration: underline;
   transition: 0.3s;
 }
+
+
+
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move to half since content is duplicated */
+  }
+}
+
+.overflow-hidden {
+  width: 100%;
+  height: 250px; /* Adjust height to fit images */
+  display: flex;
+  flex-direction: column;
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 45s linear infinite; /* Adjust the duration as needed */
+}
+
+.second-row {
+  margin-left: 100px; /* Offset the second row */
+  padding-left: 1.75rem;
+}

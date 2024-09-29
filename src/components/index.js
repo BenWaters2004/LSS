@@ -5,6 +5,7 @@ import Reviews from "./Reviews";
 import Footer from "./Footer";
 import Contact from "./contact";
 import ContactDetails from "./ContactDetails";
+import Work from "./Work";
 
 export {
   Hero,
@@ -14,4 +15,5 @@ export {
   Footer,
   Contact,
   ContactDetails,
+  Work,
 };

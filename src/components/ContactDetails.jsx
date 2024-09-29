@@ -5,7 +5,7 @@ const ContactDetails = () => {
         {/* Column 1 */}
         <div className="column1 text-black text-center flex flex-col justify-center">
           <h4 className="text-secondary text-[24px] font-bold">Email</h4><br />
-          <p className="text-[20px] font-semibold">pete@lewisscaffoldsolutions</p>
+          <a href="mailto:pete@lewisscaffoldsolutions" className="text-[20px] font-semibold">pete@lewisscaffoldsolutions</a>
         </div>
 
         {/* Column 2 with 90% height border */}
