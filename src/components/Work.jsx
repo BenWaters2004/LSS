@@ -28,27 +28,51 @@ const Work = () => {
           {/* Duplicated content for seamless scrolling */}
           {[...Array(4)].map((_, i) => (
             <React.Fragment key={i}>
-              <img src={work1} alt="Work 1" className="w-[200px] h-[200px] object-cover" />
-              <img src={work2} alt="Work 2" className="w-[200px] h-[200px] object-cover" />
-              <img src={work3} alt="Work 3" className="w-[200px] h-[200px] object-cover" />
-              <img src={work4} alt="Work 4" className="w-[200px] h-[200px] object-cover" />
-              <img src={work5} alt="Work 5" className="w-[200px] h-[200px] object-cover" />
-              <img src={work6} alt="Work 6" className="w-[200px] h-[200px] object-cover" />
+              <div className="hexagon">
+                <img src={work1} alt="Work 1" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work2} alt="Work 2" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work3} alt="Work 3" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work4} alt="Work 4" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work5} alt="Work 5" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work6} alt="Work 6" className="hexagon-img" />
+              </div>
             </React.Fragment>
           ))}
         </div>
 
         {/* Second Row with Offset */}
-        <div className="flex space-x-14 animate-scroll mt-12 second-row">
+        <div className="flex space-x-14 animate-scroll second-row">
           {/* Duplicated content for seamless scrolling */}
           {[...Array(4)].map((_, i) => (
             <React.Fragment key={i}>
-              <img src={work7} alt="Work 7" className="w-[200px] h-[200px] object-cover" />
-              <img src={work8} alt="Work 8" className="w-[200px] h-[200px] object-cover" />
-              <img src={work9} alt="Work 9" className="w-[200px] h-[200px] object-cover" />
-              <img src={work10} alt="Work 10" className="w-[200px] h-[200px] object-cover" />
-              <img src={work11} alt="Work 11" className="w-[200px] h-[200px] object-cover" />
-              <img src={work12} alt="Work 12" className="w-[200px] h-[200px] object-cover" />
+              <div className="hexagon">
+                <img src={work7} alt="Work 7" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work8} alt="Work 8" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work9} alt="Work 9" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work10} alt="Work 10" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work11} alt="Work 11" className="hexagon-img" />
+              </div>
+              <div className="hexagon">
+                <img src={work12} alt="Work 12" className="hexagon-img" />
+              </div>
             </React.Fragment>
           ))}
         </div>

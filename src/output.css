@@ -648,10 +648,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .flex {
   display: flex;
 }
@@ -694,10 +690,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.w-\[200px\] {
-  width: 200px;
 }
 
 .w-\[235px\] {
@@ -838,11 +830,6 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .p-4 {
@@ -1044,14 +1031,13 @@ video {
 
   100% {
     transform: translateX(-50%);
-    /* Move to half since content is duplicated */
+    /* Scroll for seamless looping */
   }
 }
 
-.overflow-hidden {
+.overflow-x-hidden {
   width: 100%;
-  height: 250px;
-  /* Adjust height to fit images */
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -1060,13 +1046,30 @@ video {
   display: flex;
   width: -moz-max-content;
   width: max-content;
-  animation: scroll 45s linear infinite;
-  /* Adjust the duration as needed */
+  animation: scroll 60s linear infinite;
+  /* Adjust the speed if necessary */
+}
+
+.hexagon {
+  position: relative;
+  width: 250px;
+  /* Adjust size as needed */
+  height: 250px;
+  background-color: transparent;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  overflow: hidden;
+}
+
+.hexagon-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .second-row {
-  margin-left: 100px;
-  /* Offset the second row */
+  margin-left: 125px;
+  /* Offset the second row for hexagonal alignment */
   padding-left: 1.75rem;
 }
 
