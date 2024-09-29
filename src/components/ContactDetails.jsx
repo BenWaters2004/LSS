@@ -10,7 +10,7 @@ const ContactDetails = () => {
     <section className="relative w-full bg-white h-[200px]">
       <motion.div
         className="relative w-full bg-white h-[200px]"
-        variants={fadeIn("", "", 0.2, 1)}
+        variants={fadeIn("", "", 0.2, 1.5)}
         initial="hidden"
         animate={inView ? "show" : "hidden"} // Animate only when in view
       >
