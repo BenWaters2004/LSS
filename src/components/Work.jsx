@@ -26,7 +26,7 @@ const Work = () => {
         variants={fadeIn("", "", 0.1, 3)}
         initial="hidden"
         animate={inView ? "show" : "hidden"}
-        className="text-[20px] text-[#ACACAC] mb-10"
+        className="text-[20px] text-[#ACACAC] mb-10 ml-[5%] w-[90%] md:w-full md:ml-0"
       >
         Here is some of our previous work, have a look at what we can do for you.<br />
         We work to meet your needs.

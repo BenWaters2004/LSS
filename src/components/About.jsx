@@ -8,13 +8,13 @@ const About = () => {
         
         {/* Image on the left */}
         <div className="md:w-1/2 w-full">
-          <img src="/AboutScaffold.webp" alt="Scaffolding" className="w-full h-auto px-[20%]" />
+          <img src="/AboutScaffold.webp" alt="Scaffolding" className="w-full h-auto md:px-[20%]" />
         </div>
         
         {/* Text content on the right */}
-        <div className="md:w-1/2 w-full md:pl-10 pt-5 md:pt-0 pr-[10%]">
+        <div className="md:w-1/2 w-full md:pl-10 pt-10 md:pt-0 pr-[5%] md:pr-[10%]">
           <h3 className="text-secondary font-bold text-[24px] mb-4">About Lewis Scaffold Solutions | LSS</h3>
-          <p className="text-white font-semibold text-[20px] leading-8">
+          <p className="text-white font-semibold text-[18px] leading-8 md:text-[20px]">
             Sed rutrum justo at fermentum tincidunt. Sed et vulputate erat. Morbi accumsan maximus sem ac hendrerit. Curabitur volutpat feugiat dapibus. Integer orci ex, laoreet eget purus eget, fringilla sollicitudin erat.
             <br /><br />
             Cras dignissim eros ut orci facilisis pellentesque. Donec hendrerit rutrum dolor id placerat. Maecenas placerat lacus sit amet velit convallis, quis fermentum urna suscipit. Nulla tempus risus id tristique volutpat.

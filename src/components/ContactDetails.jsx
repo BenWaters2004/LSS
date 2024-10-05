@@ -7,23 +7,24 @@ const ContactDetails = () => {
   const inView = useInView(ref, { threshold: 0.5, once: true });
 
   return (
-    <section className="relative w-full bg-white h-[200px]">
+    <section className="relative w-full bg-white h-auto">
       <motion.div
-        className="relative w-full bg-white h-[200px]"
+        className="relative w-full bg-white h-auto"
         variants={fadeIn("", "", 0.2, 1.5)}
         initial="hidden"
         animate={inView ? "show" : "hidden"} // Animate only when in view
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto max-w-7xl px-4 h-full" ref={ref}>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto max-w-7xl px-4 py-6 h-full overflow-hidden" ref={ref}>
           {/* Column 1 */}
           <div className="column1 text-black text-center flex flex-col justify-center">
             <h4 className="text-secondary text-[24px] font-bold">Email</h4><br />
-            <a href="mailto:pete@lewisscaffoldsolutions" className="text-[20px] font-semibold">pete@lewisscaffoldsolutions</a>
+            <a href="mailto:pete@lewisscaffoldsolutions" className="text-[16px] sm:text-[20px] font-semibold">pete@lewisscaffoldsolutions.co.uk</a>
           </div>
 
-          {/* Column 2 with 90% height border */}
+          {/* Column 2 with responsive borders */}
           <div className="column2 text-black text-center flex flex-col justify-center relative">
-            <div className="h-[70%] w-full mx-auto border-l border-r border-black flex flex-col justify-center">
+            <div className="h-[100%] w-[80%] mx-auto flex flex-col justify-center 
+                            border-t border-b md:border-l md:border-r md:border-t-0 md:border-b-0 border-black py-12 md:h-[70%] md:w-full">
               <h4 className="text-secondary text-[24px] font-bold">Telephone</h4><br />
               <p className="text-[20px] font-semibold">+44 (0)7783 453 458</p>
             </div>
